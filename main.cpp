@@ -23,6 +23,7 @@ int main()
       i++;
       s= s+ val2; 
       mean= s/i;
+      fout<<i<<" ";
       fout<<setprecision(18)<<scientific<<mean<<endl;
    }
    fin.close();
