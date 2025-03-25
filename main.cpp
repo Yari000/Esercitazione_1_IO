@@ -16,6 +16,7 @@ int main()
    double s=0.0e00;
    int i=0;
    double mean=2.0;
+   fout<<"#N mean"<<endl;
    while(fin>>val)
    {  
       double val2= 0.75*val - 1.75;
